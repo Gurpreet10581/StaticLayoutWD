@@ -1,0 +1,68 @@
+.body {
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #F4FAFA;
+
+}
+.laptopimg > img {
+  display: flex;
+  justify-content: center;
+  width: 599px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5em;
+}
+
+.sectionone {
+  background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+.btnone{
+    border:none;
+    color: white;
+    background-color: #FE9000;
+    text-align: center;
+    margin: 10px 20px;
+    margin-bottom: 2em;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    width: 8em;
+    border-radius: 5px;
+
+}
+.sectionone > img {
+  justify-content: left;
+  height: 10px;
+  width: 20px;
+}
+.secondsection{
+    background-color: #F4FAFA;
+    background-size: cover;
+}
+.sectiontwoimg {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.sectiontwoimg > div {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+}
+.sectionthree {
+  background-image: url(https://www.kastapp.co/assets/pages/home/green-bg.jpg);
+  background-size: cover;
+  color: #ffffff;
+ 
+}
+.quote-author{
+    margin-left: 45em;
+}
