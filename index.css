@@ -1,29 +1,14 @@
 .body {
-  padding-left: 30px;
-  padding-right: 30px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  
-
+  margin: 0px;
 }
-
 .navbar {
-  overflow: hidden;
   background-color: transparent;
   z-index: 1;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   transition: top 0.3s;
   position: fixed;
-  
-  
-
-}
-.navbarSecond{
-  float: right;
-  margin-left: 50em;
-
+  width: 100vw;
 }
 
 .navbar a {
@@ -38,10 +23,8 @@
   height: 50px;
 }
 .logoNav{
-  float: left;z-index: 70;
-}
-.dropdown-content a { 
-  float: right;
+  float: left;
+  z-index: 70;
 }
 .dropdown {
   float: left;
@@ -55,9 +38,7 @@
   display: inline-block;
   padding: 3px;
   z-index: 70;
-
 }
-
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -68,28 +49,23 @@
   font-family: inherit;
   margin: 0;
 }
-
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: transparent;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 70;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 5px 5px 5px 5px;
   text-decoration: none;
   display: block;
   text-align: left;
-  z-index: 70;
 
 }
 
@@ -113,6 +89,8 @@
   background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
   background-size: cover;
   color: #ffffff;
+  width: 100vw;
+
 }
 .btnone{
     border:none;
@@ -134,7 +112,8 @@
     padding-top: 2em;
     background-size: cover;
     margin-bottom: 5em;
-    width: 100%;
+    width: 100vw;
+
   height: 35em;
 }
 .sectiontwoimg {
@@ -153,7 +132,8 @@
 .sectionthree {
   background-image: url(https://www.kastapp.co/assets/pages/home/green-bg.jpg);
   background-size: cover;
-  width: 100%;
+  width: 100vw;
+
   height: 35em;
   color: #ffffff;
  
